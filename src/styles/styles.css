@@ -1,0 +1,43 @@
+.cotainer_main {
+    background-color: rgb(243, 154, 154);
+    height: 100vh;
+}
+
+.cotainer_photo {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.cotainer_photo img {
+    max-width: 400px;
+}
+
+.email_form {
+    width: 70%;
+}
+
+.email_form h1 {
+    text-align: center;
+}
+
+@media (max-width: 1090px) {
+    .email_form {
+        width: 90%;
+    }
+}
+.container_contact {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.textarea_height {
+    min-height: 200px !important;
+}
